@@ -5,35 +5,18 @@
 #include <string>
 #include <stddef.h>
 #include "SmartClient.h"
-#include "LockBox.h"
-#include "ClientFeedback.h"
-#include "SmartClient.cpp"
+
 
 using namespace std;
 
 
-int main(){
+int main()
+{
 
 
-SmartClient client(5, 5);
+SmartClient client = SmartClient(5, 5);
 
 client.openLockBox();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

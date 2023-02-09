@@ -7,6 +7,7 @@
 #include <cstdlib>
 #include <string>
 #include <stddef.h>
+#include <vector>
 
 #include "ClientFeedback.h"
 #include "LockBox.h"

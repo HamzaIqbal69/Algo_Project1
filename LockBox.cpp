@@ -4,11 +4,13 @@
 
 #include "LockBox.h"
 using namespace std;
-LockBox::LockBox(int p, int q) {
+LockBox::LockBox(int p, int q) 
+{
     n = p;
     m = q;
-    for (int i = 0; i < p; i ++) {
-        code.push_back(rand()%q);
+    for (int i = 0; i < p; i ++) 
+    {
+        code.push_back(rand() % q);
     }
 }
 
