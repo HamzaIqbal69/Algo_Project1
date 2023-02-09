@@ -35,7 +35,8 @@ LockBox SmartClient :: clientGuess()
 
 
 
-vector<int> SmartClient:: printCode(){
+vector<int> SmartClient:: printCode()
+{
   return box.getCode();
 }
 
