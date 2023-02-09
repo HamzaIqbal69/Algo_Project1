@@ -4,7 +4,7 @@
 
 #ifndef EECE2560LOCKBOX_LOCKBOX_H
 #define EECE2560LOCKBOX_LOCKBOX_H
-#import <vector>
+#include <vector>
 #include <stdlib.h>
 #include <time.h>
 using namespace std;
@@ -18,7 +18,7 @@ public:
     LockBox(int p = 5, int q = 10);
     int correctLocation(LockBox guess);
     int incorrectLocation(LockBox guess);
-    vector<int> getCode();
+    vector<int> getCode() const;
     void setCode(vector<int> newcode);
     
     int getDigits();
@@ -26,5 +26,5 @@ public:
 
 };
 
-
+#include "LockBox.cpp"
 #endif //EECE2560LOCKBOX_LOCKBOX_H

@@ -13,7 +13,8 @@ LockBox::LockBox(int p, int q) {
 }
 
 
-vector<int> LockBox::getCode() {
+vector<int> LockBox::getCode() const 
+{
     return code;
 }
 
